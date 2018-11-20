@@ -5,3 +5,4 @@ class Author
     @name = name
     @titles = []
   end
+end
