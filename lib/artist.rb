@@ -6,15 +6,10 @@ class Artist
     @songs = []
   end
 
-  def add_song(title)
-    puts "title: #{title}"
-    new_song = Song.new(title)
+  def add_song(song)
+    new_song = Song.new(song.name)
     new_song.artist = self
-    self.songs << new_song
-    self.songs.each do |song|
-      puts song.title
-    end
-    new_song
+    self.songs << song
   end
 
 end
