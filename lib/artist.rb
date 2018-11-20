@@ -10,6 +10,7 @@ class Artist
     new_song = Song.new(title)
     new_song.artist = self
     self.songs << new_song
+    puts self.songs
     new_song
   end
 
