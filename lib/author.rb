@@ -20,6 +20,4 @@ class Author
     Post.post_count
   end
 
-  end
-
 end
