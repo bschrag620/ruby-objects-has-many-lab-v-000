@@ -1,7 +1,7 @@
 class Author
-  attr_accessor :name, :songs
+  attr_accessor :name, :titles
 
   def initialize(name)
     @name = name
-    @songs = []
+    @titles = []
   end
