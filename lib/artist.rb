@@ -9,10 +9,7 @@ class Artist
   def add_song(title)
     new_song = Song.new(title)
     new_song.artist = self
-    self.songs << new_song
-    self.songs.each do |song|
-      puts song.title
-    end
+    self.songs << new_song.title
     new_song
   end
 
