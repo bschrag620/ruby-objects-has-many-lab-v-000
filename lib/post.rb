@@ -8,7 +8,7 @@ class Post
     @@all_posts << self
   end
 
-  def self.all_posts
+  def self.post_count
     @@all_posts.count
   end
 end
