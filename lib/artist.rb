@@ -11,5 +11,5 @@ class Artist
     new_song.artist = self.name
     self.songs << new_song
   end
-  
+
 end
