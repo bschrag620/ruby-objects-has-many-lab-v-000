@@ -12,4 +12,8 @@ class Post
     @@all.count
   end
 
+  def self.all
+    @@all
+  end
+
 end
