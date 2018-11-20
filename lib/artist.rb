@@ -11,4 +11,10 @@ class Artist
     self.songs << song
   end
 
+  def add_song_by_name(title)
+    new_song = Song.new(title)
+    new_song.artist = self
+    self.songs << new_song
+  end
+
 end
